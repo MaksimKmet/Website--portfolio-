@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Facebook</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Facebook">
+        </div>
+        <div class="profile-options">
+            <div class="profile">Profile</div>
+            <div class="notifications">Notifications</div>
+            <div class="settings">Settings</div>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>Friends</li>
+                <li>Groups</li>
+                <li>Marketplace</li>
+                <li>Watch</li>
+                <li>Memories</li>
+            </ul>
+        </aside>
+        <section class="feed">
+            <div class="post-box">
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button onclick="postStatus()">Post</button>
+            </div>
+            <div class="posts">
+                <!-- Posts will be appended here by JavaScript -->
+            </div>
+        </section>
+        <aside class="right-sidebar">
+            <div class="friends-list">
+                <h3>Contacts</h3>
+                <ul>
+                    <li>Friend 1</li>
+                    <li>Friend 2</li>
+                    <li>Friend 3</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
