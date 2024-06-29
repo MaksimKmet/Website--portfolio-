@@ -8,10 +8,22 @@
 
 }
 
-.fa-car {
-    /* color: blue; */
-}
+/* .fa-car {
+    color: blue;
+} */
 
 .span .car {
     background-color: #000;
+}
+
+#bg-grey {
+    background-color: rgb(202, 202, 202);
+}
+
+#color-black {
+    color: black;
+}
+
+#text {
+    
 }
